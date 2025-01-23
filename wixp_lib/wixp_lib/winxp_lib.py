@@ -23,5 +23,7 @@ def decode(encoded, vocabulary):
 
 class Char:
  vocabulary = "qwertyuiopasdfghjklzxcvbnm .,?(:)!/\@йцукенгшщзхфывапролджэячсмитьбюЙЦУКЕНГШЩЗХФЫВАПРОЛДЖЭЯЧСМИТЬБЮQWERTYUIOPASDFGHJKLZXCVBNM|1234567890"
-def colorprint(text, color):
-    r.print(f'[bold {color}]{text}')
+def colorout(text, color):
+    nowtime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    r.print(f'{nowtime}[bold {color}]{text}')
+
