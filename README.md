@@ -3,4 +3,4 @@
 I dont know what write there, but lib can:
 - encode("Text to encode", Char.vocabulary)
 - decode("Key what you get in encode", Char.vocabulary)
-- and log (info, warn, error)
+- and log (info("text", "level"), warn, error)
