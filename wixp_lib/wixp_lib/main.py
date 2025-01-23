@@ -24,4 +24,4 @@ def decode(encoded, vocabulary):
 class Char:
  vocabulary = "qwertyuiopasdfghjklzxcvbnm .,?(:)!/\@йцукенгшщзхфывапролджэячсмитьбюЙЦУКЕНГШЩЗХФЫВАПРОЛДЖЭЯЧСМИТЬБЮQWERTYUIOPASDFGHJKLZXCVBNM|1234567890"
 def colorprint(text, color):
-    r.print(f'[bold {color}]{text})
+    r.print(f'[bold {color}]{text}')
