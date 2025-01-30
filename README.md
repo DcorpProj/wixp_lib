@@ -6,4 +6,4 @@ I dont know what write there, but lib can:
 - and log (info("text", "level"), warn, error)
 - and colorprint("text", "color")
 
-  In 0.0.4 patch fixed non-importing error
+  In 0.0.4 patch fixed non-importing error (no)
